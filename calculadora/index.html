@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="JavaScript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora básica</title>
+
+</head>
+<body>
+    <h1>Calculadora Básica JS</h1>
+    <form action="" name="calculadora">
+        <div id="calcular">
+            <input type="text" name="visor" id="visor">
+            <div id="linha1">
+                <input type="button" value="C" class="botao um" onclick="limpar()">
+                <input type="button" value="CE" class="botao dois" onclick="apagar(value)">
+                <input type="button" value="%" class="botao tres" onclick="botao('/')">
+                <input type="button" value="X" class="botao quatro" onclick="botao('*')">
+            </div>
+            <div id="linha2">
+                <input type="button" value="7" class="botao um" onclick="botao(value)">
+                <input type="button" value="8" class="botao dois" onclick="botao(value)">
+                <input type="button" value="9" class="botao tres" onclick="botao(value)">
+                <input type="button" value="-" class="botao quatro" onclick="botao(value)">
+            </div>
+            <div id="linha3">
+                <input type="button" value="4" class="botao um" onclick="botao(value)"> 
+                <input type="button" value="5" class="botao dois" onclick="botao(value)">
+                <input type="button" value="6" class="botao tres" onclick="botao(value)">
+                <input type="button" value="+" class="botao quatro" onclick="botao(value)">
+            </div>
+            <div id="linha4">
+                <input type="button" value="1" class="botao um" onclick="botao(value)">
+                <input type="button" value="2" class="botao dois" onclick="botao(value)">
+                <input type="button" value="3" class="botao tres" onclick="botao(value)">
+                <input type="button" value="=" class="botao quatro" onclick="resultado(value)">
+            </div>
+            <div id="linha5">
+                <input type="button" value="0" class="botao um" onclick="botao(value)">
+                <input type="button" value="." class="botao dois" onclick="botao(value)">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
